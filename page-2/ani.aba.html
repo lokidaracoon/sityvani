@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html class="html">
+
+<head>
+    <link rel="stylesheet" href="ani.aba.css">
+    <meta charset="UTF-8">
+    <title>სიტყვანი</title>
+</head>
+
+
+<body class="body">
+
+    <!-- <div class="box"><button id="b">Toggle Class List</button></div>
+    <button class="bn">Toggle Class List</button> -->
+
+    <div class="element" id="element">
+        
+        
+        <!-- marcxena mxare -->
+
+        <div class="left-box">
+            <div class="score-board-1-div">
+                <div class="name-board-div">
+                    <input class="name-board" onClick="this.setSelectionRange(0, this.value.length)" type="text" autocomplete="off" placeholder="player 1" >
+                </div>
+                
+                <div class="input-div">
+                    <form class="form" name="form_main_1a">
+                        <input class="score-board-1" autocomplete="off" name="text" type="email" oninput="countText_1a()" ><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_1a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_2a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_2a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_2a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_3a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_3a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_3a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_4a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_4a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_4a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_5a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_5a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_5a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_6a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_6a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_6a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_7a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_7a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_7a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_8a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_8a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_8a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_9a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_9a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_9a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_10a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_10a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_10a"></span>
+                </div>
+
+                <div class="input-div">
+                    <form class="form" name="form_main_11a">
+                        <input class="score-board-1" name="text" autocomplete="off" oninput="countText_11a()" type="email"><br>
+                    </form>
+                    <span class="characters-div-a" id="characters_11a"></span>
+                </div>
+            
+
+        
+        
+                <div class="all-timers">
+                    <div class="circle">
+                        <span class="time" id="display">00:00</span>
+                    </div>
+            
+                    <div class="controls">
+                        <button class="buttonPlay">
+                            <img id="playButton" class="playbutton-img" src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/play-button_opkxmt.svg" />
+                
+                            <img id="pauseButton" class="pausebutton-img" src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/pause-button_pinhpy.svg" />
+                        </button>
+                
+                        <button class="buttonReset">
+                            <img id="resetButton" class="resetbutton-img" src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/reset-button_mdv6wf.svg" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- shua nawili -->
+
+        <div class="middel-box">
+            <div class="row">
+                <div class="box-1">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-2">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-3">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-4">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-5">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="box-1">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-2">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-3">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-4">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-5">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="box-1">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-2">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-3">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-4">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-5">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="box-1">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-2">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-3">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-4">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-5">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="box-1">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-2">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-3">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-4">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+                <div class="box-5">
+                    <input class="input" onClick="this.setSelectionRange(0, this.value.length)" type="text" maxlength = "1">
+                </div>
+            </div>
+        </div>
+
+        <!-- marjvena mxare -->
+
+        <div class="right-box">
+            <div class="score-board-2-div">
+                <div class="name-board-div">
+                    <input class="name-board" type="text" autocomplete="off" placeholder="player 2">
+                </div>
+                
+                <div class="input-div">
+                    <span class="characters-div" id="characters_1"></span>
+                    <form class="form" name="form_main_1">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_1()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_2"></span>
+                    <form class="form" name="form_main_2">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_2()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_3"></span>
+                    <form class="form" name="form_main_3">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_3()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_4"></span>
+                    <form class="form" name="form_main_4">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_4()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_5"></span>
+                    <form class="form" name="form_main_5">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_5()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_6"></span>
+                    <form class="form" name="form_main_6">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_6()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_7"></span>
+                    <form class="form" name="form_main_7">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_7()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_8"></span>
+                    <form class="form" name="form_main_8">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_8()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_9"></span>
+                    <form class="form" name="form_main_9">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_9()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_10"></span>
+                    <form class="form" name="form_main_10">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_10()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="input-div">
+                    <span class="characters-div" id="characters_11"></span>
+                    <form class="form" name="form_main_11">
+                        <input class="score-board-1" name="text" autocomplete="off" cols="20" rows="1" oninput="countText_11()" type="text"><br>
+                    </form>
+                </div>
+
+                <div class="settings-div">
+                    <div class="js-toggle-fullscreen-btn-div">
+                        <button class="js-toggle-fullscreen-btn toggle-fullscreen-btn" aria-label="Enter fullscreen mode" hidden>
+                            <svg class="toggle-fullscreen-svg" width="28" height="28" viewBox="-2 -2 28 28">
+                                <g class="icon-fullscreen-enter">
+                                    <path d="M 2 9 v -7 h 7" />
+                                    <path d="M 22 9 v -7 h -7" />
+                                    <path d="M 22 15 v 7 h -7" />
+                                    <path d="M 2 15 v 7 h 7" />
+                                </g>
+                                
+                                <g class="icon-fullscreen-leave">
+                                    <path d="M 24 17 h -7 v 7" />
+                                    <path d="M 0 17 h 7 v 7" />
+                                    <path d="M 0 7 h 7 v -7" />
+                                    <path d="M 24 7 h -7 v -7" />
+                                </g>
+                            </svg>
+                        </button>                    
+                    </div>
+                </div>
+                    <div class="back-button-div">
+                        <a href="../index.html" class="back-a">
+                            <button class="back-button">
+                                back
+                            </button>
+                        </a>
+                    </div>
+        <!-- <div class="ani" id="ani" onmouseover="ania('100px'), anuki('100px'), loki('')" onmouseleave="ania(''), anuki(''), loki('none')">
+            <div id="pol" class="pol">
+                <button class="logo-button a4" onclick="a4a();" id="a4">ც</button>
+                <button class="logo-button a5" onclick="a5a();" id="a5">მ</button>
+                <button class="logo-button a6" id="" onclick="a6a();">წ</button>
+                <button class="logo-button a7" id="" onclick="a7a();">ლ</button>            
+                <button class="logo-button a9" id="" onclick="a9a();">ჩ</button>
+                <button class="logo-button a0" id="" onclick="a0a();">თ</button>
+                <button class="logo-button a11" id="" onclick="a11a();">ტ</button>
+                <button class="logo-button a22" id="" onclick="a22a();">ყ</button>    
+                <button class="logo-button a44" id="" onclick="a44a();">ნ</button>
+                <button class="logo-button a55" id="" onclick="a55a();">ნ</button>
+                <button class="logo-button a66" id="" onclick="a66a();">ე</button>
+                <button class="logo-button a77" id="" onclick="a77a();">ნ</button>
+                <button class="logo-button a111" id="" onclick="a111a();">ე</button>
+                <button class="logo-button a222" id="" onclick="a222a();">ნ</button>
+                <button class="logo-button a333" id="" onclick="a333a();">ნ</button>
+                <button class="logo-button a444" id="" onclick="a444a();">ნ</button>
+                <button class="logo-button a555" id="" onclick="a555a();">ი</button>
+            </div>
+        </div> -->
+
+            </div>
+        </div>
+
+        
+            
+    </div>
+    <script src="ani.aba.js"></script>
+</body>
+</html>

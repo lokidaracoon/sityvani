@@ -1,0 +1,264 @@
+@font-face {
+    font-family: qartuli;
+    src: url(fonts/bpg_mrgvlovani_caps_2010.ttf);
+  }
+  
+*{
+    margin: 0;
+}
+
+::selection {
+    background: transparent;
+  }
+
+.index-body{
+    background-color: rgb(31, 31, 31);
+    zoom: 175%;
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+
+
+
+.logo-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 262px;
+    height: 262px;
+    margin: -104px 0 0 -104px;
+    /* display: flex; */
+}
+
+.logo-row{
+    display: flex;
+    width: 262px;
+    height: 52px;
+}
+
+.logo-button{
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    padding: 0;
+    font-family: qartuli;
+    font-size: 40px;
+    padding: 0;
+    background-color: rgb(4, 147, 37);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: transparent;
+    text-shadow: 0 0 0 white;
+    transition:0.15s;
+}
+
+.logo-button:hover{
+    /* font-size: 43.2px; */
+    outline: none;
+    background-color: #f2c94c;
+    /* width: 54px;
+    height: 54px;
+    margin: -1px;
+    border-radius: 5px; */
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 2); */
+    padding: 0;
+}
+
+.meniu-div{
+    display: flex;
+    justify-content: center;
+    margin: 22% 0;
+}
+
+
+
+
+#Div1
+{ 
+  z-index: -2;
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.old-1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+.old-2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 30);
+    display: inline-block;
+}
+
+.old-3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 30);
+    display: inline-block;
+}
+
+.a1{
+    left: 1px;
+    top: 1px;
+    position: absolute;
+}
+
+.a2{
+    left: 53px;
+    top: 1px;
+    position: absolute;
+}
+
+.a3{
+    left: 105px;
+    top: 1px;
+    position: absolute;
+}
+
+.a4{
+    left: 157px;
+    top: 1px;
+    position: absolute;
+} .a4:hover{ background-color: aqua;}
+
+.a5{
+    left: 209px;
+    top: 1px;
+    position: absolute;
+} .a5:hover{ background-color: yellowgreen;}
+
+.a6{
+    left: 1px;
+    top: 53px;
+    position: absolute;
+} .a6:hover{ background-color: red;}
+
+.a7{
+    left: 53px;
+    top: 53px;
+    position: absolute;
+} .a7:hover{ background-color: darkblue;}
+
+.a8{
+    left: 105px;
+    top: 53px;
+    position: absolute;
+}
+
+.a9{
+    left: 157px;
+    top: 53px;
+    position: absolute;
+} .a9:hover{ background-color: darkmagenta;}
+
+.a0{
+    left: 209px;
+    top: 53px;
+    position: absolute;
+} .a0:hover{ background-color:  rgb(31, 31, 31); }
+
+.a11{
+    left: 1px;
+    top: 105px;
+    position: absolute;
+} .a11:hover{ background-color: orange;}
+
+.a22{
+    left: 53px;
+    top: 105px;
+    position: absolute;
+} .a22:hover{ background-color: orchid;}
+
+.a33{
+    left: 105px;
+    top: 105px;
+    position: absolute;
+}
+
+.a44{
+    left: 157px;
+    top: 105px;
+    position: absolute;
+} .a44:hover{ background-color: rgb(40, 135, 110);}
+
+.a55{
+    left: 209px;
+    top: 105px;
+    position: absolute;
+} .a55:hover{ background-color: rgb(68, 51, 7);}
+
+.a66{
+    left: 1px;
+    top: 157px;
+    position: absolute;
+} .a66:hover{ background-color: rgb(30, 73, 29);}
+
+.a77{
+    left: 53px;
+    top: 157px;
+    position: absolute;
+} .a77:hover{ background-color: white; color: rgb(4, 147, 37);}
+
+.a88{
+    left: 105px;
+    top: 157px;
+    position: absolute;
+}
+
+.a99{
+    left: 157px;
+    top: 157px;
+    position: absolute;
+}
+
+.a00{
+    left: 209px;
+    top: 157px;
+    position: absolute;
+}
+
+.a111{
+    left: 1px;
+    top: 209px;
+    position: absolute;
+} .a111:hover{ background-color:mediumslateblue;}
+
+.a222{
+    left: 53px;
+    top: 209px;
+    position: absolute;
+} .a222:hover{ background-color: black;}
+
+.a333{
+    left: 105px;
+    top: 209px;
+    position: absolute;
+} .a333:hover{ background-color: lightcoral;}
+
+.a444{
+    left: 157px;
+    top: 209px;
+    position: absolute;
+} .a444:hover{ background-color: rgb(127, 49, 230);}
+
+.a555{
+    left: 209px;
+    top: 209px;
+    position: absolute;
+} .a555:hover{ background-color: yellow}
+
+
+
+
+
+
+
